@@ -111,7 +111,66 @@ body{
     opacity: 1;
 }
 
+.stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.stats-header{
+    top: 1012px;
+    left: 456px;
+    width: 720px;
+    height: 42px;
+    text-align: center;
+    font: normal normal normal 36px/42px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.stats-content{
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.stats-text{
+    padding-top: 20px;
+}
+
+.stats-article{
+    display: block;
+    text-align: center;
+    line-height: 30px;
+}
+
+.stats-article-primary{
+    top: 1231px;
+    left: 412px;
+    width: 116px;
+    height: 24px;
+    text-align: center;
+    font: normal normal 800 20px/24px Raleway;
+    letter-spacing: 5.96px;
+    color: #000000;
+    opacity: 1;
+}
+
+.stats-text .stats-article-secondary{
+    top: 1274px;
+    left: 423px;
+    width: 94px;
+    height: 20px;
+    padding-top: 50px;
+    text-align: center;
+    font: normal normal normal 17px/20px Raleway;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    opacity: 1;
+}
 
 
 
