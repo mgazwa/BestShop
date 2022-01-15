@@ -5,67 +5,66 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700;800&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:300,400,700,800&display=swap&subset=latin-ext"
+          rel="stylesheet"/>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <title>BestShop Marcin</title>
 </head>
 <body>
-<header class="page-header">
-    <div class="container">
-        <a href="/">BestShop</a>
-        <nav class="page-nav">
-            <ul class="page-nav-list">
-                <li><a href="#">Why us</a></li>
-                <li><a href="#">Benefits</a></li>
-                <li><a href="#">Prices</a></li>
-                <li><a href="#">Contact</a></li>
+
+<header class="header">
+    <div class="header_container container">
+        <a href="#" class="logo">BestShop</a>
+
+        <nav>
+            <ul class="header_nav">
+                <li class="nav_element"><a href="#why-us" class="nav_link">Why us</a></li>
+                <li class="nav_element"><a href="#benefits" class="nav_link">Benefits</a></li>
+                <li class="nav_element"><a href="#prices" class="nav_link">Prices</a></li>
+                <li class="nav_element"><a href="#contact" class="nav_link">Contact</a></li>
             </ul>
         </nav>
     </div>
 </header>
 
 <section class="banner">
-    <div class="banner-content">
-        <h1 class="banner-title">Sell More!</h1>
-        <p class="banner-text">Open shop on our platform and increase your sales</p>
-        <div class="btn">
-            <button class="banner-button">Open your shop</button>
-        </div>
-        <img src="images/Background.png">
+    <div class="banner_content">
+        <h1 class="banner_title">Sell More!</h1>
+        <p class="banner_text">Open shop on our platform and increase your sales</p>
+        <a href="#" class="btn btn--primary btn--large">Open your shop</a>
     </div>
+    <img src="images/Background.png">
 </section>
 
 <section class="stats">
-    <h2 class="stats-header">The most popular sales platform in country</h2>
-</section>
+    <div class="container">
+        <h2>The most popular sales platform in country</h2>
+        <div class="stats_container">
+            <div class="stats_single">
+                <div class="stats_circle">
+                    <img src="images/Person.svg" alt="person" class="stats_image">
+                </div>
+                <div class="stats_number">10000+</div>
+                <div class="stats_description">daily entries</div>
+            </div>
 
-<section>
-    <div class="stats-content">
-        <article class="stats-article">
-            <img src="images/Person.svg">
-            <div class="stats-text">
-                <p class="stats-article-primary">100000+</p>
-                <p class="stats-article-secondary">daily entries</p>
+            <div class="stats_single">
+                <div class="stats_circle">
+                    <img src="images/Eye.svg" alt="eye" class="stats_image">
+                </div>
+                <div class="stats_number">200000+</div>
+                <div class="stats_description">seen products every day</div>
             </div>
-        </article>
-        <article class="stats-article">
-            <img src="images/Eye.svg">
-            <div class="stats-text">
-                <p class="stats-article-primary">2000000+</p>
-                <p class="stats-article-secondary">seen products every day</p>
+
+            <div class="stats_single">
+                <div class="stats_circle">
+                    <img src="images/Catalog.svg" alt="catalog" class="stats_image">
+                </div>
+                <div class="stats_number">10000+</div>
+                <div class="stats_description">added products daily</div>
             </div>
-        </article>
-        <article class="stats-article">
-            <img src="images/Catalog.svg">
-            <div class="stats-text">
-                <p class="stats-article-primary">10000+</p>
-                <p class="stats-article-secondary">added posts daily</p>
-            </div>
-        </article>
+        </div>
     </div>
 </section>
 
