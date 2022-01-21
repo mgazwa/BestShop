@@ -487,4 +487,71 @@ h2 {
     display: block;
   }
 }
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner_content {
+  margin-top: 130px;
+  text-align: center;
+}
+@media (max-width: 796px) {
+  .banner_content {
+    padding: 0 33px;
+  }
+}
+
+.banner_title {
+  font-family: "Raleway", sans-serif;
+  font-size: 3.0625rem;
+}
+
+.banner_text {
+  margin-top: 20px;
+  margin-bottom: 38px;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  padding: 16px 65px;
+  border-radius: 35px;
+  border: none;
+}
+.btn--primary {
+  background-color: #08a6e4;
+  border-radius: 35px;
+  box-shadow: 5px 10px 14px rgba(7, 172, 230, 0.16);
+}
+.btn--large {
+  padding: 22px 157px;
+}
+@media (max-width: 796px) {
+  .btn--large {
+    padding: 22px 90px;
+  }
+}
+
+.background_image {
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 796px) {
+  .banner img {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
