@@ -1,0 +1,11 @@
+@mixin notebook {
+  @media (max-width: 1352px){
+    @content;
+  }
+}
+
+@mixin phone {
+  @media (max-width: 796px){
+    @content;
+  }
+}
